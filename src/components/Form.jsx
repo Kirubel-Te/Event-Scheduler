@@ -143,7 +143,7 @@ const StyledWrapper = styled.div`
     }
 
     .form-container .form-group input::placeholder {
-        opacity: 0.5;
+        opacity: 0.7;
     }
 
     .form-container .form-group input:focus {
@@ -176,7 +176,7 @@ const StyledWrapper = styled.div`
     }
 
     .form-container .form-submit-btn:hover {
-        background-color: #fff;
+        background-color: #212121;
         border-color: #fff;
     }`;
 
