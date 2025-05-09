@@ -14,6 +14,29 @@ const Form = () => {
                         <label htmlFor="textarea">Event Description</label>
                         <textarea name="textarea" id="textarea" rows={10} cols={50} required defaultValue={"          "} />
                     </div>
+                    <div className='time-controller'>
+                        <div className='form-group'>
+                            <label htmlFor='Sdate'>Starting Date: </label>
+                            <input type='date' id='Sdate' name='Sdate' required/>
+                            <label htmlFor='Edate'>Ending Date: </label>
+                            <input type='date' id='Edate' name='Edate' />
+                        </div>
+                        <div className='form-group'>
+                        <label htmlFor='Stime'>Starting Time: </label>
+                        <input type='time' id='Stime' name='Stime' required/>
+                        <label htmlFor='Etime'>Ending Time: </label>
+                        <input type='time' id='Etime' name='Etime' />
+                        </div>
+                    </div>
+                    <div className='form-group'>
+                        <select>
+                            <option hidden="">Event Type</option>
+                            <option value='Personal'>Personal</option>
+                            <option value='Holiday'>Holiday</option>
+                            <option value='Work'>Work</option>
+                            <option value='Un-related'>Un-related</option>
+                        </select>
+                    </div>
                     <button className="form-submit-btn" type="submit">Create</button>
                 </form>
             </div>
@@ -60,6 +83,12 @@ const StyledWrapper = styled.div`
         gap: 2px;
 
     }
+    
+    .time-controller{
+        display:flex;
+        gap:3px;
+        justify-content: space-around;
+    }
 
     .form-container .form-group label {
         display: block;
@@ -69,7 +98,7 @@ const StyledWrapper = styled.div`
         font-size: 12px;
     }
 
-    .form-container .form-group input {
+    .form-container .form-group input{
         padding: 12px 16px;
         border-radius: 8px;
         color: #fff;
@@ -77,6 +106,30 @@ const StyledWrapper = styled.div`
         background-color: transparent;
         border: 1px solid #414141;
     }
+
+    .form-container .form-group select{
+        padding: 12px 40px 12px 16px;
+        border-radius: 8px;
+        color: #fff;
+        font-family: inherit;
+        background-color: transparent;
+        border: 1px solid #414141;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+
+    }
+
+    .form-container .form-group select {
+        background-color: #212121;
+        color: #fff;
+    }
+
+    .form-container .form-group option {
+        background-color: #212121;
+        color: #fff;
+    }
+
 
     .form-container .form-group textarea {
         padding: 12px 16px;
