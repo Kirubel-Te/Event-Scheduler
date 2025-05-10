@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+.calendar-container {
+    width: 95vw;
+    max-width: 1200px;
+    margin: 2rem auto;
+    background: linear-gradient(#212121, #212121) padding-box,
+                linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    color: #e0e0e0;
+}
+
+.react-calendar {
+    width: 100%;
+    background-color: #212121;
+    border: none;
+    font-size: 1.1rem;
+    color: #e0e0e0;
+}
+
+.react-calendar__navigation {
+    background-color: #212121;
+    border-bottom: 1px solid #444;
+}
+.react-calendar__navigation button {
+    background: none;
+    color: #f0f0f0;
+    font-weight: bold;
+}
+.react-calendar__navigation button:hover {
+    background-color: #3a3a3a;
+}
+.react-calendar__month-view__weekdays {
+    background-color: #212121;
+    color: #aaa;
+    font-weight: bold;
+}
+
+.react-calendar__tile {
+    background-color: #212121;
+    border-radius: 10px;
+    min-height: 80px;
+    text-align: left;
+    padding: 8px;
+    transition: background-color 0.2s;
+    font-size: 1.2rem;
+}
+.react-calendar__tile:hover {
+    background-color: #3d3d3d;
+}
+
+
+.react-calendar__tile--now {
+    background: #384b4f !important;
+    border: 1px solid #5fc3b8;
+    color: #fff;
+}
+
+.react-calendar__tile--active {
+    background-color: #5fc3b8 !important;
+    color: #1e1e1e !important;
+}
+
+.holiday-tile {
+    background-color: #733f3f !important;
+    color: #ffbdbd;
+    font-weight: bold;
+    border: 1px solid #aa4c4c;
+}
+
+
+.day-tile {
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+}
+
+
+.calendar-container h1 {
+    text-align: center;
+    color: #e8e8e8;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.react-calendar__month-view__weekdays abbr {
+    text-decoration: none;
+    cursor: default;
+}
+.react-calendar__month-view__weekdays {
+    color: #ccc;
+    letter-spacing: 0.05em;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+.holiday-label {
+    margin-top: 5px;
+    font-size: 0.6rem;
+    color: #ffbdbd;
+    font-weight: bold;
+    display: block;
+    overflow-wrap: break-word;
+}
+
+.react-calendar__tile:hover , .react-calendar__navigation button:hover{
+    background-color: #3d3d3d !important;
+    color: #e0e0e0;                       
+    cursor: pointer;
+}
+.react-calendar__tile.holiday-tile:hover {
+    background-color: #8b3f3f !important;
+    color: #fff;
+}
+
+.react-calendar__navigation button:focus,
+.react-calendar__navigation button:active {
+    outline: none;
+    background-color: #333 !important;
+    color: #f0f0f0 !important;
+}
+
+
+
+
