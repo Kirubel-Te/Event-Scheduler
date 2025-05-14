@@ -4,3 +4,91 @@
     background-color: black;
     color:whitesmoke;
 }
+.collapse-button{
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+}
+.collapse-button .side img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;       /* Ensures the icon fills the circle */
+    display: block;
+}
+
+.collapse-button .side{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;     
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Profile{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.P-img{
+    margin-bottom: 20px;
+    display: flex;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(12, 200, 12);
+}
+
+.menu{
+    margin-top: 100px;
+    padding-left: 20px;
+}
+.menu ul li,.key ul li{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.menu ul li img{
+    width: 30px;
+}
+
+.key{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.key h3{
+    padding-bottom: 20px;
+}
+.holiday{
+    background-color: red;
+    width: 20px;
+    border-radius: 5px;
+    height: 13px;
+}
+.personl{
+    background-color: green;
+    width: 20px;
+    border-radius: 5px;
+    height: 13px;
+}
+.work{
+    background-color: blue;
+    width: 20px;
+    border-radius: 5px;
+    height: 13px;
+}
+.unrelated{
+    background-color: whitesmoke;
+    width: fit-content;
+    border-radius: 5px;
+    height: 10px;
+}
