@@ -1,6 +1,7 @@
 import Form from "./components/Form";
 import Holiday from "./components/Holiday";
 import SideBar from './components/SideBar';
+import Home from './components/Home'
 
 import './App.css'
 
@@ -9,13 +10,16 @@ import './App.css'
 
 export default function App(){
   return(
-    <div className="main-content">
-      <div className="sideBar">
-        <SideBar/>
-      </div>
-      <div className="main-body">
-        <Holiday/>
-      </div>
-    </div>
+    <>
+      <Home/>
+    </>
+    // <div className="main-content">
+    //   <div className="sideBar">
+    //     <SideBar/>
+    //   </div>
+    //   <div className="main-body">
+    //     <Holiday/>
+    //   </div>
+    // </div>
   )
 }

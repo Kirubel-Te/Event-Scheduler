@@ -1,0 +1,19 @@
+.toggleclass{
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+}
+.toggleclass img{
+    width: 30px;
+}
+header{
+    display: flex;
+    padding-top: 30px;
+    margin-top: 30px;
+    gap: 15px;
+    justify-content: center;
+    font-size: 30px;
+}
+header img{
+    width: 50px;
+}
