@@ -24,39 +24,41 @@ export default function SlideBar(){
                 <ul>
                     <li>
                         <img src={Folder} alt='add event'/>
-                        <h6>Add Event</h6>
+                        <p>Add Event</p>
                     </li>
                     <li>
                         <img src={Event} alt='list event' />
-                        <h6>List Event</h6>
+                        <p>List Event</p>
                     </li>
                     <li>
                         <img src={Calendar} alt='show calendar' />
-                        <h6>Display Calendar</h6>
+                        <p>Display Calendar</p>
                     </li>
                 </ul>
             </div>
 
             <div className="key">
                 <h4>Key</h4>
-                <ul>
-                    <li>
-                        <h6>Holiday</h6>
-                        <div className='holiday'></div>
-                    </li>
-                    <li>
-                        <h6>Personal</h6>
-                        <div className='personal'></div>
-                    </li>
-                    <li>
-                        <h6>Work</h6>
-                        <div className='work'></div>
-                    </li>
-                    <li>
-                        <h6>Un-related</h6>
-                        <div className='unrelated'></div>
-                    </li>
-                </ul>
+                <div className='keyList'>
+                    <ul>
+                        <li>
+                            <p>Holiday</p>
+                            <div className='holiday'></div>
+                        </li>
+                        <li>
+                            <p>Personal</p>
+                            <div className='personal'></div>
+                        </li>
+                        <li>
+                            <p>Work</p>
+                            <div className='work'></div>
+                        </li>
+                        <li>
+                            <p>Un-related</p>
+                            <div className='unrelated'></div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     )

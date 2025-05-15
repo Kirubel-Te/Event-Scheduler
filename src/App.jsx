@@ -9,6 +9,13 @@ import './App.css'
 
 export default function App(){
   return(
-    <SideBar/>
+    <div className="main-content">
+      <div className="sideBar">
+        <SideBar/>
+      </div>
+      <div className="main-body">
+        <Holiday/>
+      </div>
+    </div>
   )
 }

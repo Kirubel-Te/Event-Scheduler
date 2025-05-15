@@ -13,3 +13,19 @@ body{
   font-style: normal;
   font-size: 28px;
 }
+
+.main-content{
+  display:flex;
+  height: 100vh;
+}
+.sideBar,.main-body{
+  overflow-y: auto;
+  height: 100vh;
+}
+.sideBar{
+  width: 20%;
+
+}
+.main-body{
+  width: 80%;
+}

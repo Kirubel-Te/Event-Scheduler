@@ -1,6 +1,6 @@
 .main-side{
     min-height: 100vh;
-    width:23%;
+    width:100%;
     background-color: black;
     color:whitesmoke;
 }
@@ -48,19 +48,19 @@
     margin-top: 100px;
     padding-left: 20px;
 }
-.menu ul li,.key ul li{
+.menu ul li{
     display: flex;
     gap: 20px;
     margin-bottom: 20px;
     cursor: pointer;
 }
 .menu ul li img{
-    width: 30px;
+    width: 22px;
 }
 
 .key{
     display: flex;
-    margin-top: 100px;
+    margin-top: 130px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -68,27 +68,46 @@
 .key h3{
     padding-bottom: 20px;
 }
+.key .keyList{
+    width: 70%;
+    margin: 10px auto;
+    border-radius: 7px;
+    padding: 10px;
+}
+.key .keyList ul li{
+    display: flex;
+    gap: 5%;
+}
+.keyList ul li p{
+    width: 30%;
+}
+.keyList ul li div{
+    width: 65%;
+}
 .holiday{
-    background-color: red;
+    background-color: rgb(248, 59, 59);
     width: 20px;
     border-radius: 5px;
     height: 13px;
 }
-.personl{
-    background-color: green;
+.personal{
+    background-color: rgb(19, 188, 19);
     width: 20px;
     border-radius: 5px;
     height: 13px;
 }
 .work{
-    background-color: blue;
+    background-color: rgb(47, 47, 234);
     width: 20px;
     border-radius: 5px;
     height: 13px;
 }
 .unrelated{
-    background-color: whitesmoke;
+    background-color: rgb(194, 10, 194);
     width: fit-content;
     border-radius: 5px;
-    height: 10px;
+    height: 13px;
+}
+.menu p,.key p{
+    font-size: 15px;
 }
