@@ -24,6 +24,7 @@ Install the necessary dependencies:
 
 ```bash
 npm install react-calendar
+```
 
 # Contact Form Component
 
@@ -42,3 +43,4 @@ A simple and styled contact form built with **React** and **styled-components**.
 
    ```bash
    npm install styled-components
+   ```
