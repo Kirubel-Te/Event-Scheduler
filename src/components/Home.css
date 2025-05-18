@@ -15,5 +15,17 @@ header{
     font-size: 30px;
 }
 header img{
-    width: 50px;
+    width: 60px;
+}
+
+.cal-home{
+    width: 75%;
+    margin: 10px auto;
+    display: flex;
+}
+.cal-home > div{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
