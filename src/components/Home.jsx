@@ -14,10 +14,21 @@ export default function Home(){
                 <img src={Event}/>
             </header>
             <div className='cal-home'>
-                <div>
+                <div className='cal-p'>
+                    <h2>Plan, Schedule, Manage</h2>
                     <p>Effortlessly manage your schedule and collaborate in real-time</p>
+                    <div className='button-name'>
+                        <button id='btn1'>Get Started</button>
+                        <button id='btn2'>Discover</button>
+                    </div>
                 </div>
-                <Icalendar/>
+                <div className='cal-cal'>
+                    <Icalendar/>
+                </div>
+            </div>
+
+            <div className='home-foot'>
+                <p>footer</p>
             </div>
         </div>
     )

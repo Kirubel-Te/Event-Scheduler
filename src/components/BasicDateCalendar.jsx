@@ -32,6 +32,17 @@ export default function BasicDateCalendar() {
                         '.MuiPickersDay-root': {
                             color: 'white',             // 🟢 this sets the number (day) color
                         },
+                        '.MuiPickersCalendarHeader-switchViewIcon': {
+                            color: 'white',
+                        },
+    // Previous and next month arrows
+                        '.MuiPickersArrowSwitcher-button': {
+                            color: 'white',
+                        },
+                        '.MuiPickersDay-today': {
+                            border: '1px solid rgb(213, 216, 221)',   // Change the border
+                            color: 'white',
+                        },
                     }}
                 />
             </Box>
