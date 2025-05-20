@@ -63,3 +63,59 @@ header img{
 #btn2{
     background-color: rgb(6, 6, 6);
 }
+
+.home-foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    flex-direction: column;
+    background-color: #1e1c1c;
+    padding: 20px;
+    box-shadow:0 4px 12px rgba(0, 0, 0, 0.4), 0 2px 4px rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+
+}
+.footer-one{
+    display: flex;
+    gap: 2px;
+    margin-bottom: 60px;
+}
+.footer-one > img{
+    width: 30px;
+}
+.footer-two{
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    justify-content: space-around;
+}
+.footer-two > h6{
+    opacity: 0.7;
+}
+.footer-two > h6:hover{
+    opacity: 1;
+    color: blue;
+    cursor: pointer;
+}
+.footer-three{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.footer-three > .mrLogo{
+    display: flex;
+    gap: 5px;
+
+}
+.footer-three > .mrLogo > img{
+    width: 40px;
+}

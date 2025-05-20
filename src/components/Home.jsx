@@ -1,7 +1,10 @@
 import './Home.css'
 import Event from '../assets/event.svg'
+import Calendar from '../assets/calendar.svg'
 import Menu from '../assets/menuu.svg'
 import Icalendar from './BasicDateCalendar'
+import Material from '../assets/material-ui.svg'
+import ReactL from '../assets/react.svg'
 
 export default function Home(){
     return(
@@ -28,7 +31,27 @@ export default function Home(){
             </div>
 
             <div className='home-foot'>
-                <p>footer</p>
+                <div className='footer-one'>
+                    <img src={Calendar} alt='calendar' />
+                    <p>Event Scheduler</p>
+                </div>
+                <div className='footer-two'>
+                    <h6><a>Calendar</a></h6>
+                    <h6><a>Form Event</a></h6>
+                    <h6><a>Home</a></h6>
+                </div>
+                <div className='footer-three'>
+                    <div>
+                        <h6>developed by: Kirubel-Te</h6>
+                    </div>
+                    <div className='mrLogo'>
+                        <img src={Material} alt="material ui" />
+                        <img src={ReactL} alt="react logo" />
+                    </div>
+                    <div>
+                        <h6>© 2025. All rights reserved.</h6>
+                    </div>
+                </div>
             </div>
         </div>
     )
