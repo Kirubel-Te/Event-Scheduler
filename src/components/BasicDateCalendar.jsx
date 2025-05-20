@@ -12,8 +12,9 @@ export default function BasicDateCalendar() {
                     backgroundColor: '#000000',
                     color: 'white',
                     padding: 2,
-                    borderRadius: 2,
+                    borderRadius: 3,
                     display: 'inline-block',
+                    boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.5)',
                 }}
             >
                 <DateCalendar

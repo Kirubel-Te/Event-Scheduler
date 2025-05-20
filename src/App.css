@@ -22,10 +22,17 @@ body{
   overflow-y: auto;
   height: 100vh;
 }
-.sideBar{
-  width: 20%;
 
+.sideBar {
+  width: 20%;
+  transform: translateX(0);
+  transition: transform 0.3s ease;
 }
+
+.sideBar.closed {
+  transform: translateX(-100%);
+}
+
 .main-body{
   width: 80%;
 }

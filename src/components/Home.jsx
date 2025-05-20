@@ -6,20 +6,20 @@ import Icalendar from './BasicDateCalendar'
 import Material from '../assets/material-ui.svg'
 import ReactL from '../assets/react.svg'
 
-export default function Home(){
+export default function Home({click,toggle}){
     return(
         <div>
-            <div className='toggleclass'>
-                <img src={Menu} alt='menu'/>
-            </div>
+            {!toggle && <div className='toggleclass'>
+                <img src={Menu} alt='menu'onClick={click}/>
+            </div>}
             <header>
                 <h1>Evnet Scheduler</h1>
                 <img src={Event}/>
             </header>
             <div className='cal-home'>
                 <div className='cal-p'>
-                    <h2>Plan, Schedule, Manage</h2>
-                    <p>Effortlessly manage your schedule and collaborate in real-time</p>
+                    <h3>Plan, Schedule, Manage</h3>
+                    <h6>Effortlessly manage your schedule and collaborate in real-time</h6>
                     <div className='button-name'>
                         <button id='btn1'>Get Started</button>
                         <button id='btn2'>Discover</button>
