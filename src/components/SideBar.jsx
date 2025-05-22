@@ -3,14 +3,16 @@ import Menu from '../assets/menuu.svg'
 import Calendar from '../assets/calendar.svg'
 import Event from '../assets/event.svg'
 import Folder from '../assets/folder.svg'
+import Setting from '../assets/setting.svg'
+import Help from '../assets/help.svg'
 
 export default function SlideBar({Sclick,Stoggle}){
     return(
         <div className='main-side'>
-            {Stoggle && <div className='collapse-button'>
+            <div className="normal">
+                {Stoggle && <div className='collapse-button'>
                 <div className='side'><img src={Menu} alt='sidebarMenu' onClick={Sclick} /></div>
             </div>}
-
             <div className='Profile'>
                 <div className='P-img'>
                     <h3>K</h3>
@@ -33,6 +35,10 @@ export default function SlideBar({Sclick,Stoggle}){
                     <li>
                         <img src={Calendar} alt='show calendar' />
                         <p>Display Calendar</p>
+                    </li>
+                    <li>
+                        <img src={Setting} alt='setting' id='setting'/>
+                        <p>Setting</p>
                     </li>
                 </ul>
             </div>
@@ -60,6 +66,12 @@ export default function SlideBar({Sclick,Stoggle}){
                     </ul>
                 </div>
             </div> */}
+            </div>
+            <div className='bottom'>
+                <img src={Help} alt="help button" />
+                <p>help</p>
+            </div>
+            
         </div>
     )
 }

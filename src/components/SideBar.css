@@ -24,6 +24,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .Profile{
@@ -54,7 +55,7 @@
     margin-bottom: 20px;
     cursor: pointer;
 }
-.menu ul li img{
+.menu ul li img, .bottom > img{
     width: 22px;
 }
 
@@ -110,4 +111,23 @@
 }
 .menu p,.key p{
     font-size: 15px;
+}
+
+#setting{
+    width: 32px;
+}
+
+.normal{
+    flex: 1;
+}
+.bottom{
+    display: flex;
+    gap:7px;
+    font-size: 16px;
+    padding-left: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 20px;
+    cursor: pointer;
 }

@@ -8,6 +8,7 @@
 }
 .toggleclass img{
     width: 30px;
+    cursor: pointer;
 }
 header{
     display: flex;
@@ -16,6 +17,11 @@ header{
     gap: 15px;
     justify-content: center;
     font-size: 30px;
+}
+header > h1{
+    background: linear-gradient(145deg,#e81cff, #40c9ff); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 header img{
     width: 60px;
@@ -83,6 +89,9 @@ header img{
     margin-bottom: 20px;
     margin-top: 100px;
     flex-direction: column;
+    background: linear-gradient(#212121, #212121) padding-box,
+                linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+    border: 2px solid transparent;
     background-color: #1e1c1c;
     padding: 20px;
     box-shadow:0 4px 12px rgba(0, 0, 0, 0.4), 0 2px 4px rgba(255, 255, 255, 0.05);

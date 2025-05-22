@@ -10,6 +10,8 @@ export default function BasicDateCalendar() {
             <Box
                 sx={{
                     backgroundColor: '#000000',
+                    background: 'linear-gradient(#000000, #000000) padding-box,linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;',
+                    border: '1px solid transparent;',
                     color: 'white',
                     padding: 2,
                     borderRadius: 3,
