@@ -44,3 +44,28 @@ A simple and styled contact form built with **React** and **styled-components**.
    ```bash
    npm install styled-components
    ```
+
+# 📅 Date Calendar Component
+
+A dark-themed Material UI date calendar component built using MUI's `DateCalendar` and `AdapterDayjs`. This component is styled for a sleek, modern dark UI and offers smooth transitions, selection highlights, and customization options.
+
+---
+
+## 🚀 Features
+
+- 🔲 Dark theme (`#212121` background)
+- 📆 Date selection with visual feedback
+- ✨ Highlight for today's date
+- 🎯 Custom-styled headers, weekdays, and buttons
+- 🌒 Box shadow and rounded corners
+- 💥 Easy integration with Day.js and MUI
+
+---
+
+## 📦 Installation
+
+Install the necessary dependencies:
+
+```bash
+npm install @mui/material @mui/x-date-pickers dayjs
+```
