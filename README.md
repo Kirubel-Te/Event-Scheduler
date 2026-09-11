@@ -39,7 +39,7 @@ A simple and styled contact form built with **React** and **styled-components**.
 
 ## Usage
 
-1. **Install styled-components** (if not already):
+1. **Install styled-components**:
 
    ```bash
    npm install styled-components
@@ -57,7 +57,6 @@ A dark-themed Material UI date calendar component built using MUI's `DateCalenda
 - 📆 Date selection with visual feedback
 - ✨ Highlight for today's date
 - 🎯 Custom-styled headers, weekdays, and buttons
-- 🌒 Box shadow and rounded corners
 - 💥 Easy integration with Day.js and MUI
 
 ---
