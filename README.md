@@ -56,8 +56,7 @@ A dark-themed Material UI date calendar component built using MUI's `DateCalenda
 - 🔲 Dark theme (`#212121` background)
 - 📆 Date selection with visual feedback
 - ✨ Highlight for today's date
-- 🎯 Custom-styled headers, weekdays, and buttons
-- 💥 Easy integration with Day.js and MUI
+- 🎯 Custom-styled headers, weekdays, and buttons- 💥 Easy integration with Day.js and MUI
 
 ---
 
